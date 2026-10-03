@@ -5,13 +5,49 @@ build/
 dist/
 wheels/
 *.egg-info
-# Environment variables
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
 .envs/.env.local
+
 # Virtual environments
 .venv
+venv/
+
+# Caches (.cache/ holds the Hugging Face token and downloaded hub files)
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Downloaded model weights
 *__*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Training outputs and logs
+outputs/
+results/
+checkpoint-*/
+runs/
+logs/
+wandb/
+mlruns/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
 requirements.txt.bak
-
-
