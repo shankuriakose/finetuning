@@ -16,6 +16,9 @@ wheels/
 .venv
 venv/
 
+## model weights and checkpoints
+results/
+
 # Caches (.cache/ holds the Hugging Face token and downloaded hub files)
 .cache/
 .pytest_cache/
@@ -33,6 +36,8 @@ venv/
 *.pth
 *.ckpt
 *.gguf
+
+
 
 # Training outputs and logs
 outputs/
