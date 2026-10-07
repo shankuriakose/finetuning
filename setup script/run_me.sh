@@ -8,3 +8,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubc
 
 sudo apt update
 sudo apt install gh
+
+gh auth login
+gh auth setup-git
