@@ -43,6 +43,7 @@ results/
 outputs/
 results/
 checkpoint-*/
+lora_adapters/
 runs/
 logs/
 wandb/
