@@ -11,3 +11,6 @@ sudo apt install gh
 
 gh auth login
 gh auth setup-git
+
+git config --global user.name "Shan Kuriakose"
+git config --global user.email "shan.kur456@gmail.com"
